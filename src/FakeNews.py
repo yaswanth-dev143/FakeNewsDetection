@@ -11,7 +11,7 @@ from IPython.display import display
 import ipywidgets as widgets
 from sklearn.utils.class_weight import compute_class_weight
 # Load the dataset
-df = pd.read_csv("news.csv")  # Update the path to where your data is located
+df = pd.read_csv("data/news.csv")
 
 # Get the independent features (X) and the dependent target (y)
 X = df['text']

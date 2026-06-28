@@ -103,7 +103,7 @@ a {
 """
 
 # Load the dataset
-df = pd.read_csv("/home/pavani/majorproject/news.csv")
+df = pd.read_csv("data/news.csv")
 
 # Get the independent features (X) and the dependent target (y)
 X = df['text']
